@@ -1,0 +1,22 @@
+{
+  "node": {
+    "5c4b0b47ead316ad932a6af6f9fc86ebad846630": {
+      "workers": {
+        "app/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cdell%5C%5CDesktop%5C%5CNext_Auth_Credentials%5C%5Cauth_credentials%5C%5Csrc%5C%5Capp%5C%5CserverActions%5C%5CloginAction.js%22%2C%5B%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/login/page": "action-browser"
+      }
+    },
+    "f5f2b57b7d1460783fdd18ab953f75009c135b64": {
+      "workers": {
+        "app/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cdell%5C%5CDesktop%5C%5CNext_Auth_Credentials%5C%5Cauth_credentials%5C%5Csrc%5C%5Capp%5C%5CserverActions%5C%5CregisterAction.js%22%2C%5B%22registerAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "34Zt6wIVF8DNYpLogw9vU/HSsPuFI3K2uFUIr3nihsA="
+}
