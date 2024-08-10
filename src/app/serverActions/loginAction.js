@@ -8,12 +8,19 @@ import { signIn } from "../auth"
 export async function loginAction(loginDetails){
         console.log("login details from form", loginDetails)
         try {
-            await signIn("credentials", {
+
+            const response = await signIn("credentials", {
                 email: loginDetails.email,
                 password: loginDetails.password,
-                redirectTo: "/"
+                redirect:false,
             })
+            if(!response || response.error){
+                console.log("login failed", response?.error)
+                throw new Error("login falied")
+            }
+                return {success:true}
+
         } catch (error) {
-            console.log(error)
+            throw new Error("Invalid Credentials")
         }
 }

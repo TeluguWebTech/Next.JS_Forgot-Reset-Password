@@ -19,6 +19,7 @@
 .formSection h3, input{
   width: 80%;
   height: 1.5rem;
+  font-size: 1.2rem;
 }
 .formSection button{
   background: rgb(45, 45, 187);
