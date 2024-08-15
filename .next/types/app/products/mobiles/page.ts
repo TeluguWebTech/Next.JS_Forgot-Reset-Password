@@ -1,4 +1,4 @@
-// File: C:\Users\dell\Desktop\Next_Auth_Credentials\auth_credentials\src\app\products\mobiles\page.jsx
+// File: C:\Users\dell\Desktop\Next-Middleware\auth_credentials\src\app\products\mobiles\page.jsx
 import * as entry from '../../../../../src/app/products/mobiles/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
