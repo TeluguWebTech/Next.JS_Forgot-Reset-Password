@@ -15,9 +15,16 @@ export async function registerAction(registerDetails){
                 throw new Error("Email already taken")
         }
 
-        const hashedPassword = await bcrypt.hash(registerDetails.password, 10);
+        // const hashedPassword = await bcrypt.hash(registerDetails.password, 10);
 
-        await UserModel.create({...registerDetails, password: hashedPassword});
+        // await UserModel.create({...registerDetails, password: hashedPassword});
+
+        await UserModel.create({
+                username: registerDetails.username, 
+                email: registerDetails.email,
+                password: registerDetails.password
+
+        })
 
         return {success:true}
 } 

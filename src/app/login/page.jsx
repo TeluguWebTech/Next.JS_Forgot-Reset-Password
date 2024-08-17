@@ -46,6 +46,9 @@ const LoginForm = () => {
         <Link href="/register">
           Not Resistered? Signup
         </Link>
+        <Link href="/reset">
+       <h5> Forgot Password/ Reset Password</h5>
+        </Link>
         </form>
       
     </div>

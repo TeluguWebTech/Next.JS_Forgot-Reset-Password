@@ -1,5 +1,21 @@
 {
   "node": {
+    "76125e9fdbbeebf596a0a33b718deb27bbea4c03": {
+      "workers": {
+        "app/reset/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cdell%5C%5CDesktop%5C%5CNext-Middleware%5C%5Cauth_credentials%5C%5Csrc%5C%5Capp%5C%5CserverActions%5C%5CresetEmailAction.js%22%2C%5B%22resetEmailAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/reset/page": "action-browser"
+      }
+    },
+    "6f7063e00088f7fe61762f529a522f3dec51060d": {
+      "workers": {
+        "app/reset-password/[token]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cdell%5C%5CDesktop%5C%5CNext-Middleware%5C%5Cauth_credentials%5C%5Csrc%5C%5Capp%5C%5CserverActions%5C%5CresetPasswordAction.js%22%2C%5B%22resetPasswordAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/reset-password/[token]/page": "action-browser"
+      }
+    },
     "b2330cedcd43a9f956398c63792ef8a4f9ea9fac": {
       "workers": {
         "app/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cdell%5C%5CDesktop%5C%5CNext-Middleware%5C%5Cauth_credentials%5C%5Csrc%5C%5Capp%5C%5CserverActions%5C%5CloginAction.js%22%2C%5B%22loginAction%22%5D%5D%5D&__client_imported__=true!"
@@ -7,8 +23,16 @@
       "layer": {
         "app/login/page": "action-browser"
       }
+    },
+    "d18fa33e46b76aa4a3a5d8bd12e1855bb4d89f6d": {
+      "workers": {
+        "app/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cdell%5C%5CDesktop%5C%5CNext-Middleware%5C%5Cauth_credentials%5C%5Csrc%5C%5Capp%5C%5CserverActions%5C%5CregisterAction.js%22%2C%5B%22registerAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      }
     }
   },
   "edge": {},
-  "encryptionKey": "bm593tze/naCFh4vu++HmhKZ619pDrE0+iRQiiz42fw="
+  "encryptionKey": "dEUjkOmzRWV6Pj7agM0c1MW2ZrrIi3XC2OFoYkWW0Ho="
 }

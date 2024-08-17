@@ -19,6 +19,10 @@ const userSchema = new mongoose.Schema({
             type:String,
             enum:['user', 'admin'],
             default:'user'
+        },
+        verifytoken:{
+            type:String,
+            required:false
         }
 })
 
