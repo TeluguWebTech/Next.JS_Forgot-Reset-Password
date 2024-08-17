@@ -20,15 +20,15 @@ export async function resetEmailAction(email){
             port: 587,
             secure: false, // Use `true` for port 465, `false` for all other ports
             auth: {
-              user: "7a7900001@smtp-brevo.com",
-              pass: "0jKv2ZcatJn9Gx6X",
+              user: "YOUR_LOGIN",
+              pass: "PASSWORD",
             },
           });
 
           const content = `Click here to <a href= "http://localhost:3000/reset-password/${token}">Reset Password</a>`
 
           const resetLink ={
-            from: '"Maddison Foo Koch 👻" <kalyan.vza@gmail.com>', // sender address
+            from: '"Maddison Foo Koch 👻" <sender@email>', // sender address
     to: email, // list of receivers
     subject: "reset link", // Subject line
     text: "New password", // plain text body
